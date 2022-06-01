@@ -140,6 +140,7 @@ header .navbar .nav-link.active {
     margin-top: -5px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .owl-carousel .owl-nav .owl-prev span::before,
 .owl-carousel .owl-nav .owl-next span:before{
