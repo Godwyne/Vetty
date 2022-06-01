@@ -96,7 +96,7 @@ header .navbar .nav-link.active {
 
 /* accordion */
 .section {
-    padding: 7em 0;
+    padding: 5em 0;
 }
 
 .accordion-item {
@@ -325,7 +325,7 @@ header .navbar .nav-link.active {
 
 /* footer */
 .section-subscribe{
-    padding: 5em 0;
+    padding: 2em 0;
 }
 .form-control{
     outline: none;
