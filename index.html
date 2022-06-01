@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- owl carousel cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vetty</title>
+</head>
+<body>
+<!-- Navbar -->
+<header class="banner">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container fluid">
+      <a class="navbar-brand" href="#">Vetty</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto px-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- carousel slider -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/dog7.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="container">
+                <div class="row slide-text align-items-center text-start">
+                    <div class="col-md-6 col-sm-12">
+                        <span class="title cursive">
+                            Good and Adorable dog, 2yrs old
+                        </span>
+                        <h1>Needs a caring Parent</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet accusantium sit adipisci harum rem illum ea exercitationem atque consequuntur vitae facere iste impedit dolore maxime non mollitia, quaerat deleniti.</p>
+                        <p><a href="#" class="btn btn-danger">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/dog1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="row slide-text align-items-center text-end justify-content-end">
+                <div class="col-md-6 col-sm-12">
+                    <span class="title cursive">
+                        Good and Adorable dog, 2yrs old
+                    </span>
+                    <h1>Needs a caring Parent</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet accusantium sit adipisci harum rem illum ea exercitationem atque consequuntur vitae facere iste impedit dolore maxime non mollitia, quaerat deleniti.</p>
+                    <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/dog3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="container">
+                <div class="row slide-text align-items-center text-start">
+                    <div class="col-md-6 col-sm-12">
+                        <span class="title cursive">
+                            Good and Adorable dog, 2yrs old
+                        </span>
+                        <h1>Needs a caring Parent</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem amet accusantium sit adipisci harum rem illum ea exercitationem atque consequuntur vitae facere iste impedit dolore maxime non mollitia, quaerat deleniti.</p>
+                        <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Accordion -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="img/dog8.webp" class="img-fluid mb-5" alt="">
+                <p class="mb-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolore fugiat odio quasi sequi quaerat nulla ducimus, sed laudantium vero eaque sint delectus repellendus facere itaque aliquam commodi suscipit <maiores class="olre"></maiores>
+                </p>
+                <p><a href="#" class="btn btn-danger opacity-75">Adopt a Pet now</a></p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <h3 class="mb-3">Steps to rescue &amp; Adopt a pet</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nemo dolores sunt nam molestiae voluptate exercitationem commodi ut error quis.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe est minima praesentium eum dicta voluptas laudantium corrupti optio molestiae..</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis blanditiis exercitationem, provident saepe aperiam nemo veritatis qui? Delectus, vel!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Accordion Item #4
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis similique sit quis deserunt laudantium laboriosam minus et culpa accusamus odio.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Accordion Item #5
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam labore fugit eos voluptates ratione sint corporis distinctio architecto ut necessitatibus.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Accordion Item #6
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum architecto, blanditiis ab unde odio cupiditate laborum deserunt quasi repellat veniam?</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Accordion Item #7
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- image media selection -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col-md-8 text-center">
+        <h1 class="heading mb-4">Meet Our Adorable pets</h1>
+        <p class="mb-4 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo ducimus laborum tempore iusto facere ratione architecto nulla reiciendis? Praesentium?</p>
+        <p class="mb-0">
+            <a href="" class="btn btn-danger opacity-90">Find out about our pets</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="major-carousel js-carousel owl-carousel">
+        <div>
+          <div class="media media-custom d-block text-left">
+            <a href="">
+              <img src="img/dog5.jpg" alt="" class="img-fluid">
+            </a>
+            <div class="media-body">
+              <h5 class="text-black p-3 mt-0">
+                  <a href="#" class="text-black">Golden Retriever<span class="age"> 2 yrs. old</span></a>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="media media-custom d-block text-left">
+            <a href="">
+              <img src="img/dog6.jpg" alt="" class="img-fluid">
+            </a>
+            <div class="media-body">
+              <h5 class="text-black p-3 mt-0">
+                  <a href="#" class="text-black">Golden Retriever<span class="age"> 2 yrs. old</span></a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media media-custom d-block text-left">
+            <a href="">
+              <img src="img/dog3.jpg" alt="" class="img-fluid">
+            </a>
+            <div class="media-body">
+              <h5 class="text-black p-3 mt-0">
+                <a href="#" class="text-black">Golden Retriever<span class="age"> 2 yrs. old</span></a>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="media media-custom d-block text-left">
+            <a href="">
+              <img src="img/dog3.jpg" alt="" class="img-fluid">
+            </a>
+            <div class="media-body">
+              <h5 class="text-black p-3 mt-0">
+                <a href="#" class="text-black">Golden Retriever<span class="age"> 2 yrs. old</span></a>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="media media-custom d-block text-left">
+            <a href="">
+              <img src="img/dog3.jpg" alt="" class="img-fluid">
+            </a>
+            <div class="media-body">
+              <h5 class="text-black p-3 mt-0">
+                  <a href="#" class="text-black">Golden Retriever<span class="age"> 2 yrs. old</span></a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog articles -->
+<section class="section border-t">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center">
+        <h1 class="heading mb-4">Our Blog Articles</h1>
+        <p class="mb-4 lead">Read tips about how to take care of your pets</p>
+      </div>
+    </div>
+
+    <div class="row g-0">
+      <div class="col-md-4">
+        <a href="#" class="link-thumbnail">
+          <h3>
+            <span class="date">26th May, 2021</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          </h3>
+          <span class="bi bi-book"></span>
+          <img src="img/pug.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="link-thumbnail">
+          <h3>
+            <span class="date">26th May, 2021</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          </h3>
+          <span class="bi bi-book"></span>
+          <img src="img/vetsurg.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="link-thumbnail">
+          <h3>
+            <span class="date">26th May, 2021</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          </h3>
+          <span class="bi bi-book"></span>
+          <img src="img/vet.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter -->
+<section class="section-subscribe bg-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-12 mb-4">
+        <h1 class="heading">
+          Get news &amp; updates
+        </h1>
+      </div>
+
+      <div class="col-md-12">
+        <form action="" method="POST">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <input type="text" class="form-control" placeholder="Your name here">
+            </div>
+            <div class="col-md-4 mb-4">
+              <input type="email" class="form-control" placeholder="Your email here">
+            </div>
+            <div class="col-md-4 mb-4">
+              <input type="submit" class="btn btn-secondary" value="subscribe">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, doloribus. Totam assumenda distinctio exercitationem accusantium necessitatibus sequi ratione! Eaque, quo.</p>
+        <p><a href="#">Click here to learn more</a></p>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Contact &amp; Address</h2>
+        <ul class="list-unstyled footer-link">
+          <li class="d-flex">
+            <span class="me-3">Address:</span><span class="text-white">28 Avenue Name, City name here, Country name here</span>
+          </li>
+          <li class="d-flex">
+            <span class="me-3">Telephone:</span><span class="text-white">+234 802 712316</span>
+          </li>
+          <li class="d-flex">
+            <span class="me-3">Email:</span><span class="text-white">your@email.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h2>Quick Links</h2>
+        <ul class="list-unstyled footer-link">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Our pets</a></li>
+          <li><a href="#">Blog articles</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <h2>Our Socials</h2>
+        <ul class="list-unstyled footer-social d-flex">
+          <li><a href="#"><span class="bi bi-facebook"></span></a></li>
+          <li><a href="#"><span class="bi bi-twitter"></span></a></li>
+          <li><a href="#"><span class="bi bi-instagram"></span></a></li>
+          <li><a href="#"><span class="bi bi-LinkedIn"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+<!--Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
