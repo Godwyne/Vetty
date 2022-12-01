@@ -72,15 +72,20 @@ header .navbar .nav-link.active {
 /* carousel slide */
 .carousel-item{
     height: calc(100vh -120px);
-    max-height: 590px;
+    max-height: 755px;
     background: no-repeat scroll center scroll;
 }
-
+.carousel-item .carousel-caption{
+    top: 30%;
+}
 @media screen and (max-width: 768px){
     .carousel-item {
         height: 400px;
         overflow: hidden;
         background-size: cover;
+    }
+    .address{
+        margin-left: 7rem;
     }
 }
 .carousel-item .slide-text h1{
